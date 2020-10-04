@@ -1,7 +1,7 @@
 # Hospital-Department-Predictor-Sahyadri
 ## ML Model which predicts which department doctor you have to book based on your symptoms.
  
- ### http://178413bf534c.ngrok.io/  --model deployed here using ngrok     [Will be deployed till 5-10-2020 9AM IST as it requires Constant Internet Connection to my computer]
+ ### http://178413bf534c.ngrok.io/  --model deployed here using ngrok     [Will be only deployed till 5-10-2020 9AM IST as it requires Constant Internet Connection to my computer]
 
 https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties.will rectify it after the juding of hack as submission time is over]
 

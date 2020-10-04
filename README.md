@@ -24,7 +24,8 @@ I have trained 3 Models with 4000  rows::[Refer Full_model-Copy1.ipynb file][350
                Dense neural Network with 1 hidden Layer.["Best Model Overall"]<br />               
                Dense neural network with 2 hidden layer.<br />
                Random Forest Classifier.<br />
-            [*Note :Neural Networks  provided excellent results with manual testing and this has been deployed in ngrok.*]<br />
+               
+            [*Note :Neural Networks  provided excellent results with manual testing and this has been deployed in ngrok.*]
 The ipynb files are not documented well,as it was uploaded in haste .[Will Change it once judging time period is over]<br />
 
 Though My models produce excellent results,still they lack knowledge and make mistake in some simple cases.This is especially because of the poor dataset.<br />

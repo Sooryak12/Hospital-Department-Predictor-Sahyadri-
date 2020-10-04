@@ -2,4 +2,3 @@ gunicorn==19.9.0
 Flask==1.1.1
 pandas>=0.19
 fuzzywuzzy==0.17.0
-pickle==4.0

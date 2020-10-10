@@ -2,6 +2,7 @@ import pandas as pd
 import pickle
 import  fuzzywuzzy.fuzz as fuzz
 from flask import Flask, request, render_template
+import tensorflow as tf
 
 
 
@@ -38,7 +39,7 @@ def predict():
       #  if values==1:
            # print(key)
         df_run=pd.DataFrame(symp_dict,index=[1])
-        classifier = pickle.load(open("model4rf.sav", 'rb'))
+        classifier = tf.keras.models.load_model("my_model1_4k")
         pred=classifier.predict(df_run.drop(labels=["department","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],axis=1).head(1))
    
   #  display("Prediction Raw Values : ",pred)  ##Testing
@@ -54,7 +55,7 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=False )    
+    app.run(debug=False)    
 
 
 

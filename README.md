@@ -1,7 +1,6 @@
 # Hospital-Department-Predictor-Sahyadri
 ## ML Model which predicts which department doctor you have to book based on your symptoms.
- 
- ### http://178413bf534c.ngrok.io/  --model deployed here using ngrok     [Will be only deployed till 5-10-2020 9AM IST as it requires Constant Internet Connection to my computer]   
+  
 
 https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties.will rectify it after the juding of hack as submission time is over] 
 
@@ -26,7 +25,7 @@ I have trained 3 Models with 4000  rows::[Refer Full_model-Copy1.ipynb file][350
                Random Forest Classifier.<br />
                
             *Note :Neural Networks  provided excellent results with manual testing and this has been deployed in ngrok.*
-The ipynb files are not documented well,as it was uploaded in haste .[Will Change it once judging time period is over]<br />
+The jupyter notebook  files are not documented well.<br />
 
 Though My models produce excellent results,still they lack knowledge and make mistake in some simple cases.This is especially because of the poor dataset.<br />
 This predictor was more of a data collection ->Test the Models -->Note the Mistakes by manual testing -->Data Collection -->Repeat Task for me.<br />

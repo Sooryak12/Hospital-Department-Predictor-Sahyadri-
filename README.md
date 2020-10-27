@@ -12,14 +12,20 @@ So I have extra 50-60 rows of symptoms with the help of Apollo Hospitals India [
 
 ### Details:
 
-I have trained 3 Models with 350 unique rows:[Refer Full_model.ipynb file]<br />
+#### Refer either  Models file or Models with Augmented Rows for preprocessing and Model Training.
+####  deploy.py files refers to the deployment of this model using flask as backend.
+####  raw datafile is training.csv
+#### Preprocessed data files are cleaned_data.csv and cleaned_data_with_4000_rows.csv
+#### best models are my_model1_4k and model4rf.sav
+
+I have trained 3 Models with 350 unique rows:[Refer Models.ipynb file]<br />
                Dense neural Network with 1 hidden Layer.<br />              
                Dense neural network with 2 hidden layer.<br />              
                Random Forest Classifier. ["Best Model in this section"] [*Deployed in Heroku but errors*]<br />
                
        *Note: Neural Networks showed bias to general physician Category as majority of rows were of them*
        
-I have trained 3 Models with 4000  rows::[Refer Full_model-Copy1.ipynb file][350-370 rows were interpopulated(data augmented) to produce an unbiased model]<br />
+I have trained 3 Models with 4000  rows::[Refer Models with Augmented Rows.ipynb file][350-370 rows were interpopulated(data augmented) to produce an unbiased model]<br />
                Dense neural Network with 1 hidden Layer.["Best Model Overall"]<br />               
                Dense neural network with 2 hidden layer.<br />
                Random Forest Classifier.<br />

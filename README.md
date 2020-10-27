@@ -1,9 +1,8 @@
 # Hospital-Department-Predictor-Sahyadri
 ## ML Model which predicts which department doctor you have to book based on your symptoms.
- 
- ### http://178413bf534c.ngrok.io/  --model deployed here using ngrok     [Will be only deployed till 5-10-2020 9AM IST as it requires Constant Internet Connection to my computer]   
+  
 
-https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties.will rectify it after the juding of hack as submission time is over] 
+https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties]
 
  
 Hospital-Department-Predictor Model is deployed using flask as backend.
@@ -13,20 +12,26 @@ So I have extra 50-60 rows of symptoms with the help of Apollo Hospitals India [
 
 ### Details:
 
-I have trained 3 Models with 350 unique rows:[Refer Full_model.ipynb file]<br />
+#### Refer either  Models file or Models with Augmented Rows for preprocessing and Model Training.
+####  deploy.py files refers to the deployment of this model using flask as backend.
+####  raw datafile is training.csv
+#### Preprocessed data files are cleaned_data.csv and cleaned_data_with_4000_rows.csv
+#### best models are my_model1_4k and model4rf.sav
+
+I have trained 3 Models with 350 unique rows:[Refer Models.ipynb file]<br />
                Dense neural Network with 1 hidden Layer.<br />              
                Dense neural network with 2 hidden layer.<br />              
                Random Forest Classifier. ["Best Model in this section"] [*Deployed in Heroku but errors*]<br />
                
        *Note: Neural Networks showed bias to general physician Category as majority of rows were of them*
        
-I have trained 3 Models with 4000  rows::[Refer Full_model-Copy1.ipynb file][350-370 rows were interpopulated(data augmented) to produce an unbiased model]<br />
+I have trained 3 Models with 4000  rows::[Refer Models with Augmented Rows.ipynb file][350-370 rows were interpopulated(data augmented) to produce an unbiased model]<br />
                Dense neural Network with 1 hidden Layer.["Best Model Overall"]<br />               
                Dense neural network with 2 hidden layer.<br />
                Random Forest Classifier.<br />
                
             *Note :Neural Networks  provided excellent results with manual testing and this has been deployed in ngrok.*
-The ipynb files are not documented well,as it was uploaded in haste .[Will Change it once judging time period is over]<br />
+The jupyter notebook  files are not documented well.<br />
 
 Though My models produce excellent results,still they lack knowledge and make mistake in some simple cases.This is especially because of the poor dataset.<br />
 This predictor was more of a data collection ->Test the Models -->Note the Mistakes by manual testing -->Data Collection -->Repeat Task for me.<br />

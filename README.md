@@ -2,7 +2,7 @@
 ## ML Model which predicts which department doctor you have to book based on your symptoms.
   
 
-https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties.will rectify it after the juding of hack as submission time is over] 
+https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties]
 
  
 Hospital-Department-Predictor Model is deployed using flask as backend.

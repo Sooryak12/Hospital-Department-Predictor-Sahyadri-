@@ -2,7 +2,7 @@
 ## ML Model which predicts which department doctor you have to book based on your symptoms.
   
 
-https://sayhadri-ml-api.herokuapp.com/ -- model deployed here[deployed using heroku but facing some technical diffciculties]
+https://hospital-department-predictor.herokuapp.com/ -- model deployed here
 
  
 Hospital-Department-Predictor Model is deployed using flask as backend.
@@ -21,7 +21,7 @@ So I have extra 50-60 rows of symptoms with the help of Apollo Hospitals India [
 I have trained 3 Models with 350 unique rows:[Refer Models.ipynb file]<br />
                Dense neural Network with 1 hidden Layer.<br />              
                Dense neural network with 2 hidden layer.<br />              
-               Random Forest Classifier. ["Best Model in this section"] [*Deployed in Heroku but errors*]<br />
+               Random Forest Classifier. ["Best Model in this section"] <br />
                
        *Note: Neural Networks showed bias to general physician Category as majority of rows were of them*
        
